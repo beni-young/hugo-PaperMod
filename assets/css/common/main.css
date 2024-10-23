@@ -64,3 +64,11 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+img[src$='#floatleft']
+{
+    float: left;
+    margin-right: 1.5rem; 
+    width: 200px;     /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
